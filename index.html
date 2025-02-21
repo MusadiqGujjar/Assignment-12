@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawan Pakistan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="./images/download-removebg-preview.png" width="257" height="46"></div>
+        <ul>
+            <li><a href="">Download PDF</a></li>
+            <li><a href=""><span class="spn">Registration</span></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <div class="form-grid">
+            <div class="form-group">
+                <label for="Institute">Institute<span>*</span></label> <br><br>
+                <select>
+                    <option>Select Option</option>
+                    <option>SAIMS(WOW)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Course">Course<span>*</span></label><br><br>
+                <select>
+                    <option>Select Option</option>
+                    <option>Flutter App Dev Course</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Your Favourite Time?<span>*</span></label><br><br>
+                <select>
+                    <option>Select Timing</option>
+                    <option>Every Sunday 11am to 2pm</option>
+                    <option>Every Sunday 2:30pm to 5:30pm</option>
+                </select>
+            </div>
+            <div class="form-group"><br><br><br>
+                <label for="fullname">Full Name<span>*</span></label> <br><br>
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form-group"><br><br><br>
+                <label>Parents / Guardian Name<span>*</span></label><br><br>
+                <input type="text" placeholder="Guardian Name">
+            </div>
+            <div class="form-group"><br><br><br>
+                <label>Email (Write email Carefully)<span>*</span></label><br><br>
+                <input type="email" placeholder="abc123@gmail.com">
+            </div>
+            <div class="form-group"><br><br><br>
+                <label>Contact Number<span>*</span></label><br><br>
+                <input type="number" placeholder="03XXXXXXXXX">
+            </div>
+            <div class="form-group"><br><br><br>
+                <label for="">City Name<span>*</span></label><br><br>
+                <input type="text" placeholder="Enter your city name">
+            </div>
+            <div class="form-group"><br><br><br>
+                <label>CNIC / Number<span>*</span></label><br><br>
+                <input type="number" placeholder="4XXXX-8XXXXXX-5">
+            </div>
+            <div class="form-group"><br><br><br>    
+                <label for="">Gender<span>*</span></label><br><br>
+                <select>
+                    <option>Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            <div class="form-group"><br><br><br>
+                <label for="">Date of Birth<span>*</span></label><br><br>
+                <input type="date">
+            </div>
+            <div class="form-group"><br><br><br>    
+                <label for="">Last Qualification<span>*</span></label><br><br>
+                <select>
+                    <option>Select Option</option>
+                    <option>Under Matric</option>
+                    <option>Matric / O-Level</option>
+                    <option>Intermediate / A-Level</option>
+                    <option>Graduate</option>
+                    <option>Masters</option>
+                    <option>PHD</option>
+                </select>
+        </div>
+        </form>
+    </div>
+
+    <div class="input-container"><br><br><br>
+        <label for="address">Permanent Address <span class="required">*</span></label><br><br>
+        <input type="text" id="address" name="address" required>
+    </div>
+
+    <div class="form-container"><br><br><br>
+        Passport Size Profile Image (Face Front and Decent picture) <br><br>
+        <label class="file-upload">
+            <span class="custom-button">Choose File</span>
+            <input type="file">No file chosen
+            </label><br><br>
+    <button type="submit" class="submit-btn">Submit Form</button>
+
+</body>
+</html>
